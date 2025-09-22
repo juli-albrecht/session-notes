@@ -15,6 +15,10 @@
 - rmdir _filename_: Delete empty directory
 - rm -r|--recursive _filename_: Delete directory including contents
 
+## Reading files
+cat _filename.txt_: Print all contents
+open _filename.txt_: Open file in the default editor
+
 ## Workflow to push to or pull from github
 1. Create file with **touch _filename.txt_**
 2. Open file in editor with **open .**
@@ -24,5 +28,5 @@
 6. Push to git  
 6.1 With **git push** to main branch  
 6.2 With **git push -- set-upstream origin _branchname_** to new branch 
-7. In Github: Click pull-request > Compare & Pull request to merge to main
+7. In Github: Click pull-requests > Compare & Pull request > Confirm merge to merge to main
 8. In Terminal: **git pull** to synch changes from github to local 
